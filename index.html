@@ -1,366 +1,307 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="src/Images/logo.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/style.css" />
-    <title>SOŠ Digital</title>
-  </head>
 
-  <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li>
-            <a class="navbar-brand" href="#"
-              ><img src="src/Images/logo.svg" alt="logo" width="35" height="35"
-            /></a>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="src/Images/logo.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="src/style.css" />
+  <title>SOŠ Digital</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li>
+          <a class="navbar-brand" href="#"><img src="src/Images/logo.svg" alt="logo" width="35" height="35" /></a>
+        </li>
+        <li><a class="navbar-brand" href="#">SOŠ Digital</a></li>
+      </ul>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Domů</a>
           </li>
-          <li><a class="navbar-brand" href="#">SOŠ Digital</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Studijní obory</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Novinky</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Události</a>
+          </li>
+          <li class="nav-item">
+            <button type="button" class="btn btn-primary">Přihláška</button>
+          </li>
         </ul>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarText"
-          aria-controls="navbarText"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Domů</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Studijní obory</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Novinky</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Události</a>
-            </li>
-            <li class="nav-item">
-              <button type="button" class="btn btn-primary">Přihláška</button>
-            </li>
-          </ul>
-        </div>
       </div>
-    </nav>
-    <div class="container-lg">
-      <!-- Úvodní stránka -->
-      <section>
-      <div class="row mt-4 mb-3 pb-5">
-        <div class="col-md-6">
-          <h1 class="fs-1 fw-bald mb-3">Stredni skola digital</h1>
-          <p class="fs-5 fw-light">
-            Moderní vzdělávání v IT, designu a digitálních médiích. Studujte u nás, jsme vaše jednička!
-          </p>
-          <div class="d-flex flex-wrap gap-3 mb-3">
-            <button class="btn btn-primary fs-6 p-2">Studijni obory</button>
-            <button class="btn btn-outline-secondary fs-6 p-2">
-              Nejcastejsi dotazy
-            </button>
-          </div>
-          <div class="d-flex flex-wrap gap-4">
-            <div>
-              <h5 class="mb-0">45 000+</h5>
-              <p class="fw-light" >Absolventů</p>
-            </div>
-            <div>
-              <h5 class="mb-0">150</h5>
-              <p class="fw-light">Let zkušeností</p>
-            </div>
-            <div>
-              <h5 class="mb-0">99%</h5>
-              <p class="fw-light">Uplatnění</p>
-            </div>
-          </div>
+    </div>
+  </nav>
+  <!-- Úvodní stránka -->
+  <section>
+    <div class="row mt-4 mb-3 pb-5 ps-4 pe-4">
+      <div class="col-md-6">
+        <h1 class="fs-1 fw-bold mb-3">Střední odborná škola Digital</h1>
+        <p class="fs-5 fw-light">
+          Moderní vzdělávání v IT, designu a digitálních médiích. <br> Studujte u nás, jsme vaše jednička!
+        </p>
+        <div class="d-flex flex-wrap gap-3 mb-3">
+          <button class="btn btn-primary fs-6 p-2">Studijní obory</button>
+          <button class="btn btn-outline-secondary fs-6 p-2">
+            Nejčastější dotazy
+          </button>
         </div>
-        <div class="col-md-6">
-          <img src="src/Images/hero-image.webp" class="img-fluid" alt="Foto školy"/>
-      </div>
-    </section>
-      <!-- Studijní obory -->
-      <section>
-        <div class="pb-5 pt-5 bg-body-tertiary">
-          <div><h2>Studijní obory</h2>
-          </div>
-        <div class="row row-cols-1 row-cols-md-3 pt-2 g-4">
-          <div class="col">
-            <div class="card h-100">
-              <div class="card-body">
-                <h5 class="card-title">Fotografie</h5>
-                <p class="card-text">
-                  Ateliér, práce se světlem, postprodukce.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100">
-              <div class="card-body">
-                <h5 class="card-title">Video</h5>
-                <p class="card-text">Střih, color grading, zvuk, produkce.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100">
-              <div class="card-body">
-                <h5 class="card-title">Audio</h5>
-                <p class="card-text">
-                  Podcasty, hudební produkce, mix a mastering.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      </section>
-      <!-- Novinky -->
-      <section>
-        <div class="navbar pt-5">
+        <div class="d-flex flex-wrap gap-4">
           <div>
-            <h2>Novinky</h2>
+            <h5 class="mb-0">45 000+</h5>
+            <p class="fw-light">Absolventů</p>
           </div>
-            <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-secondary" type="submit">
-                Search
+          <div>
+            <h5 class="mb-0">150</h5>
+            <p class="fw-light">Let zkušeností</p>
+          </div>
+          <div>
+            <h5 class="mb-0">99%</h5>
+            <p class="fw-light">Uplatnění</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <img src="src/Images/hero-image.webp" class="img-fluid rounded" alt="Foto školy" />
+      </div>
+  </section>
+  <!-- Studijní obory -->
+  <section>
+    <div class="pb-5 pt-5 bg-body-tertiary ps-4 pe-4">
+      <div>
+        <h2>Studijní obory</h2>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 pt-2 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Fotografie</h5>
+              <p class="card-text">
+                Ateliér, práce se světlem, postprodukce.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Video</h5>
+              <p class="card-text">Střih, color grading, zvuk, produkce.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Audio</h5>
+              <p class="card-text">
+                Podcasty, hudební produkce, mix a mastering.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Novinky -->
+  <section>
+    <div class="navbar pt-5 ps-4 pe-4">
+      <div>
+        <h2>Novinky</h2>
+      </div>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+        <button class="btn btn-outline-secondary" type="submit">
+          Search
+        </button>
+      </form>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 mb-4 g-4 ps-4 pe-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="src/Images/novinky-dod.webp" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Den otevřených dveří – říjen</h5>
+            <p class="card-text">
+              Zveme uchazeče a rodiče na prohlídku školy, laboratoří a
+              ateliérů.
+            </p>
+          </div>
+          <div class="text-end pb-2 pe-1">
+            <small class="me-2 fs-6"><a href="#">číst více</a></small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="src/Images/novinky-iot.webp" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Úspěch v soutěži WebExpo Student</h5>
+            <p class="card-text">
+              Náš tým obsadil 2. místo s projektem chytré kampaně pro
+              neziskovku.
+            </p>
+          </div>
+          <div class="text-end pb-2 pe-1">
+            <small class="me-2 fs-6"><a href="#">číst více</a></small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="src/Images/novinky-vr.webp" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Nové VR studio</h5>
+            <p class="card-text">
+              Rozšiřujeme multimediální výuku o virtuální realitu a 3D
+              scanning.
+            </p>
+          </div>
+          <div class="text-end pb-2 pe-1">
+            <small class="me-2 fs-6"><a href="#">číst více</a></small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Pagination -->
+  <section>
+    <div class="ps-4 pe-4">
+      <ul class="pagination">
+        <li class="page-item">
+          <a href="#" class="page-link disabled">Previous</a>
+        </li>
+        <li class="page-item active">
+          <a class="page-link" href="#">1</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link text-danger" href="#" aria-current="page">2</a>
+        </li>
+        <li class="page-item"><a class="page-link text-danger" href="#">3</a></li>
+        <li class="page-item"><a class="page-link text-danger" href="#">Next</a></li>
+      </ul>
+    </div>
+  </section>
+  <!-- Časté dotazy -->
+  <section>
+    <div class="navbar ps-3 pe-4">
+      <div class="container-fluid">
+        <h2>Časté dotazy</h2>
+      </div>
+    </div>
+    <div class="ps-4 pe-4">
+      <div class="col-7">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                Jak podat přihlášku?
               </button>
-            </form>
-        </div>
-        <div class="row row-cols-1 row-cols-md-3 mb-4 g-4">
-          <div class="col">
-            <div class="card h-100">
-              <img
-                src="src/Images/novinky-dod.webp"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Den otevřených dveří – říjen</h5>
-                <p class="card-text">
-                  Zveme uchazeče a rodiče na prohlídku školy, laboratoří a
-                  ateliérů.
-                </p>
-              </div>
-              <div class="text-end pb-2 pe-1">
-                <small class="me-2 fs-6"><a href="#">číst více</a></small>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Vyplňte online formulář, přiložte požadované přílohy a
+                sledujte e mail pro další pokyny.
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card h-100">
-              <img
-                src="src/Images/novinky-iot.webp"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Úspěch v soutěži WebExpo Student</h5>
-                <p class="card-text">
-                  Náš tým obsadil 2. místo s projektem chytré kampaně pro
-                  neziskovku.
-                </p>
-              </div>
-              <div class="text-end pb-2 pe-1">
-                <small class="me-2 fs-6"><a href="#">číst více</a></small>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Přijímací řízení
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Součástí je motivační rozhovor a ukázka dosavadních prací (u
+                designu a médií).
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card h-100">
-              <img
-                src="src/Images/novinky-vr.webp"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Nové VR studio</h5>
-                <p class="card-text">
-                  Rozšiřujeme multimediální výuku o virtuální realitu a 3D
-                  scanning.
-                </p>
-              </div>
-              <div class="text-end pb-2 pe-1">
-                <small class="me-2 fs-6"><a href="#">číst více</a></small>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Možnosti stipendií
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Nabízíme prospěchová stipendia a podporu pro mimořádné
+                výsledky v soutěžích.
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <!-- Pagination -->
-      <section>
-        <nav aria-label="...">
-          <ul class="pagination">
-            <li class="page-item">
-              <a href="#" class="page-link">Previous</a>
-            </li>
-            <li class="page-item active">
-              <a class="page-link" href="#">1</a>
-            </li>
-            <li class="page-item">
-              <a class="page-link" href="#" aria-current="page">2</a>
-            </li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
-            <li class="page-item"><a class="page-link" href="#">Next</a></li>
-          </ul>
-        </nav>
-      </section>
-      <!-- Časté dotazy -->
-      <section>
-        <nav class="navbar bg-body-tertiary">
-          <div class="container-fluid">
-            <h2>Časté dotazy</h2>
+      </div>
+      <div class="col-5">
+
+      </div>
+    </div>
+  </section>
+  <!-- Kontakt -->
+  <section>
+    <div class="row bg-body-tertiary">
+      <div class="navbar bg-body-tertiary ps-4 pe-4">
+        <h2 class="ps-2">Kontakt</h2>
+      </div>
+      <div class="d-flex flex-wrap">
+      <div class="card col-md-6 ms-4 me-4">
+        <form class="row g-3 ps-3 pt-3 pe-4">
+          <h5>Napište nám</h5>
+          <div class="col">
+            <label for="input" class="form-label">Jméno</label>
+            <input for="text" class="form-control"></input>
           </div>
-        </nav>
-        <div class="col-7">
-          <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseOne"
-                  aria-expanded="true"
-                  aria-controls="collapseOne"
-                >
-                  Jak podat přihlášku?
-                </button>
-              </h2>
-              <div
-                id="collapseOne"
-                class="accordion-collapse collapse show"
-                data-bs-parent="#accordionExample"
-              >
-                <div class="accordion-body">
-                  Vyplňte online formulář, přiložte požadované přílohy a
-                  sledujte e mail pro další pokyny.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseTwo"
-                  aria-expanded="false"
-                  aria-controls="collapseTwo"
-                >
-                  Přijímací řízení
-                </button>
-              </h2>
-              <div
-                id="collapseTwo"
-                class="accordion-collapse collapse"
-                data-bs-parent="#accordionExample"
-              >
-                <div class="accordion-body">
-                  Součástí je motivační rozhovor a ukázka dosavadních prací (u
-                  designu a médií).
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseThree"
-                  aria-expanded="false"
-                  aria-controls="collapseThree"
-                >
-                  Možnosti stipendií
-                </button>
-              </h2>
-              <div
-                id="collapseThree"
-                class="accordion-collapse collapse"
-                data-bs-parent="#accordionExample"
-              >
-                <div class="accordion-body">
-                  Nabízíme prospěchová stipendia a podporu pro mimořádné
-                  výsledky v soutěžích.
-                </div>
-              </div>
-            </div>
+          <div class="col">
+            <label for="inputEmail" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail">
           </div>
-        </div>
-        <div class="col-5"></div>
-      </section>
-      <!-- Kontakt -->
-      <section>
-        <form class="row g-3">
-          <div class="col-md-6">
-            <label for="inputEmail4" class="form-label">Email</label>
-            <input type="email" class="form-control" id="inputEmail4" />
+          <div>
+            <label for="input" class="form-label">Předmět</label>
+            <input for="text" class="form-control"></input>
           </div>
-          <div class="col-md-6">
-            <label for="inputPassword4" class="form-label">Password</label>
-            <input type="password" class="form-control" id="inputPassword4" />
+          <div class="mb-0">
+            <label for="exampleFormControlTextarea1" class="form-label">Zpráva</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
           </div>
-          <div class="col-12">
-            <label for="inputAddress" class="form-label">Address</label>
-            <input
-              type="text"
-              class="form-control"
-              id="inputAddress"
-              placeholder="1234 Main St"
-            />
+          <div class="form-check ms-2">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Souhlasím se zpracováním osobních údajů
+            </label>
           </div>
-          <div class="col-12">
-            <label for="inputAddress2" class="form-label">Address 2</label>
-            <input
-              type="text"
-              class="form-control"
-              id="inputAddress2"
-              placeholder="Apartment, studio, or floor"
-            />
-          </div>
-          <div class="col-md-6">
-            <label for="inputCity" class="form-label">City</label>
-            <input type="text" class="form-control" id="inputCity" />
-          </div>
-          <div class="col-md-4">
-            <label for="inputState" class="form-label">State</label>
-            <select id="inputState" class="form-select">
-              <option selected>Choose...</option>
-              <option>...</option>
-            </select>
-          </div>
-          <div class="col-md-2">
-            <label for="inputZip" class="form-label">Zip</label>
-            <input type="text" class="form-control" id="inputZip" />
-          </div>
-          <div class="col-12">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="gridCheck" />
-              <label class="form-check-label" for="gridCheck">
-                Check me out
-              </label>
-            </div>
-          </div>
-          <div class="col-12">
-            <button type="submit" class="btn btn-primary">Sign in</button>
+          <div class="d-flex flex-wrap gap-3 mb-3">
+            <button class="btn btn-primary">Odeslat</button>
+            <button class="btn btn-outline-secondary">Reset</button>
           </div>
         </form>
-      </section>
+      </div>
+      <div class="col">
+        <h5>Kde nás najdete</h5>
+        <div class="d-flex flex-wrap gap-3 col-md-6">
+          <div class="card col"><h6>asda</h6></div>
+          <div class="card col"><h6>sad</h6></div>
+        </div>
+      </div>
     </div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+    </div>
+
+  </section>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
 </html>
